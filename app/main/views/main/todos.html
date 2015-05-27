@@ -8,7 +8,7 @@
       <h1>Todo List</h1>
 
       <table class="todo-table">
-        {{_todos.each_with_index do |todo, index| }}
+        {{_dos.each_with_index do |todo, index| }}
         <!-- Use params to store the current index -->
         <tr
           e-click="params._index = index"
@@ -24,7 +24,7 @@
       <form e-submit="add_todo" role="form">
         <div class="form-group">
           <label>Todo</label>
-          <input class="form-control" type="text" value="{{ _new_todo }}" />
+          <input class="form-control" type="text" value="{{ _new_dos }}" />
         </div>
       </form>
     </div>

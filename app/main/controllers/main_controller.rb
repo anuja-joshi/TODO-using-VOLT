@@ -11,12 +11,12 @@ module Main
     end
 
     def add_todo
-      _todos << { name: _new_todo }
-      _new_todo = ''
+      _dos << { name: _new_dos }
+      _new_dos = ''
     end
 
     def current_todo
-      _todos[(params._index || 0).to_i]
+      _dos[(params._index || 0).to_i]
     end
 
     private
